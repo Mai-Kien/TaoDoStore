@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color : #68de68;
+    --white-color: #fff;
+    --black-color: #000;
+    --navbar-width: 200px;
+    --border-color: rgba(0, 0, 0, 0.1);
+}
+html{
+    font-family: 'Roboto', sans-serif; /*sans-serif là chữ không có chân*/
+}
+body{
+    position: relative;
+    padding: 0;
+    margin:0;
+}

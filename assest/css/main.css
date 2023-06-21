@@ -1,0 +1,49 @@
+
+#app{
+    position: relative;
+    height: 100vh;
+}
+#navbar{
+    z-index:100;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    margin:0;
+    max-width: var(--navbar-width);
+    height: 100vh;
+}
+.navbar_logo a{
+
+}
+.logo_img{
+   width:100%;
+}
+.navbar_main{
+
+}
+.navbar_list{
+    padding-top: 20px;
+}
+.navbar-item{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+
+}
+.navbar-item i{
+    
+}
+.navbar-item:hover > a{
+    margin-left: 5px;
+    color: var(--primary-color);
+
+}
+.navbar-item:hover a{
+    margin-left: 5px;
+    color: var(--primary-color);
+}
+.content-list{
+    /* display:none; */
+    
+}
