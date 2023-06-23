@@ -28,29 +28,35 @@
                         <a href="">Trang Chủ</a>
 
                     </li>
-                    <li class="navbar-item">
+                    <li class="navbar-item navbar_content">
                         <div class="content-container">
-                            <i class="fa-solid fa-bars"></i>
-                            <a href="">Danh Mục</a> 
+                            <div class="navbar-category">
+                                <i class="fa-solid fa-bars"></i>
+                                <div class="navbar_link navbar_content-link">
+                                Danh Mục
+                                </div> 
+                            </div>
+                        
+                            <ul class="content-list">
+                                <li class="content-item">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <a href="">Điện Thoại</a>
+                                </li>
+                                <li class="content-item">
+                                    <i class="fa-solid fa-laptop"></i>
+                                    <a href="">LapTop</a>
+                                </li>
+                                <li class="content-item">
+                                    <i class="fa-solid fa-tv"></i>
+                                    <a href="">Màn Hình</a>
+                                </li>
+                                <li class="content-item">
+                                    <i class="fa-solid fa-computer"></i>
+                                    <a href="">Máy Tính,PC</a>
+                                </li>
+                            </ul>
+                            <!-- <div class="content-arrow"></div> -->
                         </div>
-                        <ul class="content-list">
-                            <li class="content-item">
-                                <i class="fa-solid fa-phone"></i>
-                                <a href="">Điện Thoại</a>
-                            </li>
-                            <li class="content-item">
-                                <i class="fa-solid fa-laptop"></i>
-                                <a href="">LapTop</a>
-                            </li>
-                            <li class="content-item">
-                                <i class="fa-solid fa-tv"></i>
-                                <a href="">Màn Hình</a>
-                            </li>
-                            <li class="content-item">
-                                <i class="fa-solid fa-computer"></i>
-                                <a href="">Máy Tính,PC</a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="navbar-item">
                         <i class="fa-solid fa-location-dot"></i>
@@ -69,7 +75,11 @@
          <!-- Phần trang chủ -->
         <div id="homepage">
             <div id="header">
-
+                <!-- Tìm kiếm -->
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="search_input" placeholder="Sản phẩm bạn muốn tìm?">
+                </div>
             </div>
         </div>
         <!-- Phần thân -->

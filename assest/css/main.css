@@ -3,6 +3,7 @@
     position: relative;
     height: 100vh;
 }
+ /*  Navbar  */
 #navbar{
     z-index:100;
     position: fixed;
@@ -12,15 +13,10 @@
     margin:0;
     max-width: var(--navbar-width);
     height: 100vh;
-}
-.navbar_logo a{
-
+    border-right: 1px solid var(--border-color);
 }
 .logo_img{
    width:100%;
-}
-.navbar_main{
-
 }
 .navbar_list{
     padding-top: 20px;
@@ -29,21 +25,117 @@
     align-items: center;
     display: flex;
     padding: 10px;
-
+    margin-top: 4px;
+    margin-left: 4px;
+    transition: 0.1s linear;
 }
+.navbar-item a{
+    text-decoration: none;
+    color: #333;
+}
+
 .navbar-item i{
-    
+    padding: 8px;
+    cursor: pointer;
+    color: var(--icon-color);
+}
+.navbar-category{
+    display: flex;
 }
 .navbar-item:hover > a{
     margin-left: 5px;
     color: var(--primary-color);
-
 }
-.navbar-item:hover a{
+.navbar-item:hover{
+    border-right: 3px solid var(--primary-color);
+}
+.navbar-category:hover > .navbar_link{
     margin-left: 5px;
     color: var(--primary-color);
 }
+.content-item:hover > a{
+    margin-left: 5px;
+    color: var(--primary-color);
+}
+
 .content-list{
-    /* display:none; */
-    
+    display:none;
+    margin-left:20px;
+
+}
+.content-item{
+    display:block;
+}
+.content-container{
+}
+.content-item a{
+    list-style: none;
+}
+.navbar_link{
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    color:#333;
+}
+
+    /* navbar content-container */
+
+
+
+    /* .content__arrow{
+        content: "";
+        position: absolute;
+        z-index: 8;
+        top: 8px;
+        right: 20px;
+        width:0px;
+        height:0px;
+        border-radius: 12px;
+        border-left:10px solid transparent;
+        border-right:10px solid transparent;
+        border-bottom:10px solid  rgba(0, 0, 0, 0.4);
+        transform: rotate(0);
+        transition: 0.1s linear;
+    } */
+    .navbar_link {
+        position: relative;
+        display: inline-block;
+        padding-right: 20px;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      .navbar_link::before {
+        content: "";
+        position: absolute;
+        right: -18px;
+        top: 45%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 4px 10px 9px;
+        border-color: transparent  transparent transparent var(--primary-color) ;
+      }
+      
+      .navbar_link:hover::before {
+        transform: translateY(-50%) rotate(90deg);
+        
+      }
+
+/* Đây là phần Homepage */
+#homepage{
+    margin-left: var(--navbar-width);
+    width: calc(100%-var(--navbar-width));
+}
+#header{
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
 }
