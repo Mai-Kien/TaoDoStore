@@ -1,10 +1,10 @@
 
 
-// chọn phần tử trong DOM (Document Object Model). Này giúp ta lấy phần tử trong html ngắn gọn hơn 
+
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-// Lấy dữ liệu( Mở phần danh mục)
+
 function openCategory(){
     const navbarCatalog = $('.navbar__catalog');
     const catalogList = $('.catalog__list');
@@ -16,7 +16,7 @@ function openCategory(){
     
 }
 
-// gọi api
+
 const productApi = 'http://localhost:3000/product';
 const productPuchasedApi = 'http://localhost:3000/productPuchased';
 const userApi = 'http://localhost:3000/user';
@@ -33,7 +33,7 @@ function app (){
     
 }
 app()
-// render lấy giữ liệu nhé cậu 
+
 function getProduct(callback){
     fetch(productApi)
     .then( (response) => {
@@ -159,29 +159,7 @@ function renderComputerProduct(products){
     Computer.innerHTML = htmlComputer.join('')
 }       
 
-// Làm phần tìm kiếm 
-// function productSearch(products){
-//     let arrProduct = [];
-//     arrProduct = products;
 
-//     const searchTitle = $('input[name="search__input"]')
-//     inputSearch.oninput = () => {
-
-//         const searchTitle = $('.search__title')
-//         openFunction(searchTitle)
-//         const productSearchResult = $('.product__type-search')
-//         openFunction(productSearchResult)
-
-//         let inputSearchValue = inputSearch.Value
-//         const resultProduct = arrProduct.filter( (product) => {
-//             return product.productName.toUpperCase().includes(inputSearchValue.toUpperCase())
-//         })
-        
-    
-
-//     }
-
-// }
 function openFunction(element){
     element.classList.remove('close');
 }
@@ -198,7 +176,7 @@ function closeFunction(element){
     }
     )}
 
-
+// Phần tìm kiếm   
 function productSearch(products) {
     let arrProduct = []
     arrProduct= products;
