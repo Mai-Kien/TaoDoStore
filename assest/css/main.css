@@ -792,9 +792,7 @@
             position:relative;
             margin-bottom: 18px;
         }
-        .contact__link{
 
-        }
         .contact-item__container{
             display: flex;
             border-radius: 50%;
@@ -879,9 +877,7 @@
     font-weight: 600;
     line-height: 2.4rem;
 }
-.list__describle{
 
-}
 .describle__item{
     padding: 8px 0;
 }
@@ -943,9 +939,7 @@
     .contack__link{
         margin-left: 15px;
     }
-    .item__data{
 
-    }
     .product__show-item__header{
         width: 80%;
         color: black;

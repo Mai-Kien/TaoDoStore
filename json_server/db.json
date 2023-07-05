@@ -1,10 +1,128 @@
 {
-  "courses": [
+  "user": [
     {
+      "address": "Nam Dinh",
+      "name": "Mai Trung Kien",
+      "phone": "0973074612",
+      "email": "kienmai29112002@gmail.com",
+      "date": "11/29/2002",
+      "userImg": "url(./assest/imgs/avt.jpg)",
+      "id": 1
+    }
+  ],
+  "product": [
+    {
+      "productImg": "url(./assest/imgs/iphone.jpg)",
+      "productName": "iphone14prm",
+      "productOldPrice": "200$",
+      "productNewPrice": "123$",
+      "productDescription": "Sản phẩm mới nhất của hãng apple",
+      "productType": "phone",
+      "id": 1
+    },
+    {
+      "productImg": "url(./assest/imgs/samsung.jpg)",
+      "productName": "samsung note 10",
+      "productOldPrice": "200$",
+      "productNewPrice": "150$",
+      "productDescription": "Sản phẩm mới nhất của hãng samsung",
+      "productType": "phone",
       "id": 2
     },
     {
+      "productImg": "url(./assest/imgs/tech.jpg)",
+      "productName": "Tecno Camon 20",
+      "productOldPrice": "150$",
+      "productNewPrice": "50$",
+      "productDescription": "Sản phẩm mới nhất của hãng khongtentuoi",
+      "productType": "phone",
+      "id": 3
+    },
+    {
+      "productImg": "url(./assest/imgs/tainghe.jpg)",
+      "productName": "Tai Nghe",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productDescription": "Sản phẩm mới nhất của hãng apple",
+      "productType": "earphone",
       "id": 4
+    },
+    {
+      "productImg": "url(./assest/imgs/tainghess.jpg)",
+      "productName": "Tai Nghe SamSung",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productDescription": "Sản phẩm mới nhất của hãng apple",
+      "productType": "earphone",
+      "id": 4
+    },
+    {
+      "productImg": "url(./assest/imgs/asusgaming.jpg)",
+      "productName": "asusgaming",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productDescription": "Sản phẩm mới nhất asus, chiến mọi tựa game",
+      "productType": "computer",
+      "id": 5
+    },
+    {
+      "productImg": "url(./assest/imgs/maytinhdeban.jpg)",
+      "productName": "Máy PC",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productDescription": "Sản phẩm mới nhất của hãng apple",
+      "productType": "computer",
+      "id": 5
+    },
+    {
+      "productImg": "url(./assest/imgs/maytinhbang.jpg)",
+      "productName": "Máy Tinh Bang",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productDescription": "Sản phẩm mới nhất của hãng apple",
+      "productType": "computer",
+      "id": 6
+    }
+  ],
+  "productPurchased": [
+    {
+      "productImg": "url(./assest/imgs/samsung.jpg)",
+      "productName": "samsung",
+      "productOldPrice": 200000,
+      "productNewPrice": 120000,
+      "productQuantity": "3",
+      "productTotalValue": "360000",
+      "id": 2
+    },
+    {
+      "productImg": "url(./assest/imgs/tainghe.jpg)",
+      "productName": "Tai Nghe",
+      "productOldPrice": 200000,
+      "productNewPrice": 120000,
+      "productQuantity": "3",
+      "productTotalValue": "360000",
+      "id": 3
+    }
+  ],
+  "productCart": [
+    {
+      "productImg": "url(./assest/imgs/iphone.jpg)",
+      "productName": "iphone",
+      "productOldPrice": "18",
+      "productNewPrice": "20",
+      "productQuantity": "1",
+      "productTotalValue": "120000",
+      "productDescription": "Sản phẩm mới nhất của hãng apple",
+      "id": 1
+    }
+  ],
+  "notificationList": [
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của mình",
+      "notificationImg": "url(./assest/imgs/avt.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin cá nhân của mình",
+      "notificationTime": "0:37 1/2/2023",
+      "id": 5
     }
   ]
 }
