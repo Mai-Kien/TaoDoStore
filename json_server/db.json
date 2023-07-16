@@ -2,24 +2,17 @@
   "user": [
     {
       "address": "Nam Dinh",
+      "userImg": "url(./assest/imgs/avt.jpg)",
+      "userName": "Mai Trung Kiên",
       "name": "Mai Trung Kien",
       "phone": "0973074612",
       "email": "kienmai29112002@gmail.com",
+      "sex": "Nam",
       "date": "11/29/2002",
-      "userImg": "url(./assest/imgs/avt.jpg)",
       "id": 1
     }
   ],
   "product": [
-    {
-      "productImg": "url(./assest/imgs/iphone.jpg)",
-      "productName": "iphone14prm",
-      "productOldPrice": "200$",
-      "productNewPrice": "123$",
-      "productDescription": "Sản phẩm mới nhất của hãng apple",
-      "productType": "phone",
-      "id": 1
-    },
     {
       "productImg": "url(./assest/imgs/samsung.jpg)",
       "productName": "samsung note 10",
@@ -28,15 +21,6 @@
       "productDescription": "Sản phẩm mới nhất của hãng samsung",
       "productType": "phone",
       "id": 2
-    },
-    {
-      "productImg": "url(./assest/imgs/tech.jpg)",
-      "productName": "Tecno Camon 20",
-      "productOldPrice": "150$",
-      "productNewPrice": "50$",
-      "productDescription": "Sản phẩm mới nhất của hãng khongtentuoi",
-      "productType": "phone",
-      "id": 3
     },
     {
       "productImg": "url(./assest/imgs/tainghe.jpg)",
@@ -82,6 +66,78 @@
       "productDescription": "Sản phẩm mới nhất của hãng apple",
       "productType": "computer",
       "id": 6
+    },
+    {
+      "productImg": "url(./assest/imgs/maytinhdeban.jpg)",
+      "productName": "Máy Tính Để Bàn",
+      "productOldPrice": "100",
+      "productNewPrice": "200",
+      "productDescription": "Máy tính test",
+      "productType": "computer",
+      "id": 7
+    },
+    {
+      "productImg": "url(./assest/imgs/samsung.jpg)",
+      "productName": "Sam sung node",
+      "productOldPrice": "12",
+      "productNewPrice": "12",
+      "productDescription": "sfdfafd",
+      "productType": "phone",
+      "id": 8
+    },
+    {
+      "productImg": "url(./assest/imgs/iphone.jpg)",
+      "productName": "iphone 14prm",
+      "productOldPrice": "100",
+      "productNewPrice": "200",
+      "productDescription": "nd",
+      "productType": "phone",
+      "id": 9
+    },
+    {
+      "productImg": "url(./assest/imgs/samsung.jpg)",
+      "productName": "Sam sung ",
+      "productOldPrice": "12",
+      "productNewPrice": "10",
+      "productDescription": "Sam Sung note 10",
+      "productType": "phone",
+      "id": 10
+    },
+    {
+      "productImg": "url(./assest/imgs/maytinhdeban.jpg)",
+      "productName": "máy tính",
+      "productOldPrice": "12",
+      "productNewPrice": "12",
+      "productDescription": "Máy tính",
+      "productType": "computer",
+      "id": 11
+    },
+    {
+      "productImg": "",
+      "productName": "",
+      "productOldPrice": "",
+      "productNewPrice": "",
+      "productDescription": "",
+      "productType": "",
+      "id": 12
+    },
+    {
+      "productImg": "url(./assest/imgs/samsung.jpg)",
+      "productName": "Mesi",
+      "productOldPrice": "88",
+      "productNewPrice": "66",
+      "productDescription": "jhg",
+      "productType": "gg",
+      "id": 13
+    },
+    {
+      "productImg": "url(./assest/imgs/avt.jpg)",
+      "productName": "Mesi",
+      "productOldPrice": "77",
+      "productNewPrice": "74",
+      "productDescription": "mesiii",
+      "productType": "phone",
+      "id": 14
     }
   ],
   "productPurchased": [
@@ -106,14 +162,34 @@
   ],
   "productCart": [
     {
-      "productImg": "url(./assest/imgs/iphone.jpg)",
-      "productName": "iphone",
-      "productOldPrice": "18",
-      "productNewPrice": "20",
+      "productImg": "url(./assest/imgs/samsung.jpg)",
+      "productName": "samsung note 10",
+      "productOldPrice": "200$",
+      "productNewPrice": "150$",
       "productQuantity": "1",
-      "productTotalValue": "120000",
-      "productDescription": "Sản phẩm mới nhất của hãng apple",
-      "id": 1
+      "productTotalValue": "",
+      "productDescription": "Sản phẩm mới nhất của hãng samsung",
+      "id": 4
+    },
+    {
+      "productImg": "url(./assest/imgs/iphone.jpg)",
+      "productName": "iphone 14prm",
+      "productOldPrice": "100",
+      "productNewPrice": "200",
+      "productQuantity": "1",
+      "productTotalValue": "",
+      "productDescription": "nd",
+      "id": 5
+    },
+    {
+      "productImg": "url(./assest/imgs/maytinhdeban.jpg)",
+      "productName": "Máy Tính Để Bàn",
+      "productOldPrice": "100",
+      "productNewPrice": "200",
+      "productQuantity": "1",
+      "productTotalValue": "200",
+      "productDescription": "Máy tính test",
+      "id": 6
     }
   ],
   "notificationList": [
@@ -121,8 +197,239 @@
       "notificeName": "Bạn đã chỉnh sửa thông tin của mình",
       "notificationImg": "url(./assest/imgs/avt.jpg)",
       "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin cá nhân của mình",
-      "notificationTime": "0:37 1/2/2023",
-      "id": 5
+      "notificationTime": "0:42 13/6/2023",
+      "id": 7
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Sieu dienj thoai",
+      "notificationImg": "url(./assest/img/product/tech.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "0:44 13/6/2023",
+      "id": 8
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm May tinh",
+      "notificationImg": "url(./assest/img/product/maytinhdeban.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "0:45 13/6/2023",
+      "id": 9
+    },
+    {
+      "notificeName": "Bạn đã mua sản phẩm iphone",
+      "notificationImg": "url(./assest/imgs/iphone.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong sản phẩm đã mua",
+      "notificationTime": "0:45 13/6/2023",
+      "id": 10
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "0:45 13/6/2023",
+      "id": 11
+    },
+    {
+      "notificeName": "Bạn đã thêm vào giỏ hàng Tecno Camon 20",
+      "notificationImg": "url(./assest/imgs/tech.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong giỏ hàng của bạn",
+      "notificationTime": "0:47 13/6/2023",
+      "id": 12
+    },
+    {
+      "notificeName": "Bạn đã thêm vào giỏ hàng samsung note 10",
+      "notificationImg": "url(./assest/imgs/samsung.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong giỏ hàng của bạn",
+      "notificationTime": "0:47 13/6/2023",
+      "id": 13
+    },
+    {
+      "notificeName": "Bạn đã mua sản phẩm iphone",
+      "notificationImg": "url(./assest/imgs/iphone.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong sản phẩm đã mua",
+      "notificationTime": "0:48 13/6/2023",
+      "id": 14
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "0:48 13/6/2023",
+      "id": 15
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "0:48 13/6/2023",
+      "id": 16
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Mesi",
+      "notificationImg": "url(./assest/img/product/iphone.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "0:49 13/6/2023",
+      "id": 18
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "0:51 13/6/2023",
+      "id": 19
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Iphone 14prm",
+      "notificationImg": "url(./assest/img/product/iphone.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "0:52 13/6/2023",
+      "id": 20
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm iphone 14prm",
+      "notificationImg": "url(./assest/img/product/iphone.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "0:55 13/6/2023",
+      "id": 21
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "16:39 15/6/2023",
+      "id": 22
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm AsusGaming",
+      "notificationImg": "url(./assest/img/product/asusgaming.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "20:18 16/6/2023",
+      "id": 23
+    },
+    {
+      "notificeName": "Bạn đã thêm vào giỏ hàng AsusGaming",
+      "notificationImg": "url(./assest/img/product/asusgaming.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong giỏ hàng của bạn",
+      "notificationTime": "20:23 16/6/2023",
+      "id": 24
+    },
+    {
+      "notificeName": "Bạn đã thêm vào giỏ hàng AsusGaming",
+      "notificationImg": "url(./assest/img/product/asusgaming.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong giỏ hàng của bạn",
+      "notificationTime": "20:24 16/6/2023",
+      "id": 25
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Sam Sung mới nhất(test)",
+      "notificationImg": "url(./assest/img/product/samsung.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:30 16/6/2023",
+      "id": 26
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "21:32 16/6/2023",
+      "id": 27
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "21:33 16/6/2023",
+      "id": 28
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Máy Tính Để Bàn",
+      "notificationImg": "url(./assest/imgs/maytinhdeban.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:33 16/6/2023",
+      "id": 29
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "21:35 16/6/2023",
+      "id": 30
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Sam sung node",
+      "notificationImg": "url(./assest/imgs/samsung.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:35 16/6/2023",
+      "id": 31
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm iphone 14prm",
+      "notificationImg": "url(./assest/imgs/iphone.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:40 16/6/2023",
+      "id": 32
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Sam sung ",
+      "notificationImg": "url(./assest/imgs/samsung.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:42 16/6/2023",
+      "id": 33
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm máy tính",
+      "notificationImg": "url(./assest/imgs/maytinhdeban.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:43 16/6/2023",
+      "id": 34
+    },
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của mình",
+      "notificationImg": "url(./assest/imgs/avt.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin cá nhân của mình",
+      "notificationTime": "21:44 16/6/2023",
+      "id": 35
+    },
+    {
+      "notificeName": "Bạn đã thêm vào giỏ hàng iphone 14prm",
+      "notificationImg": "url(./assest/imgs/iphone.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong giỏ hàng của bạn",
+      "notificationTime": "21:45 16/6/2023",
+      "id": 36
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "21:45 16/6/2023",
+      "id": 37
+    },
+    {
+      "notificeName": "Bạn đã thêm vào giỏ hàng Máy Tính Để Bàn",
+      "notificationImg": "url(./assest/imgs/maytinhdeban.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong giỏ hàng của bạn",
+      "notificationTime": "21:47 16/6/2023",
+      "id": 38
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm ",
+      "notificationImg": "",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:49 16/6/2023",
+      "id": 39
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Mesi",
+      "notificationImg": "url(./assest/imgs/samsung.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:50 16/6/2023",
+      "id": 40
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Mesi",
+      "notificationImg": "url(./assest/imgs/avt.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "21:50 16/6/2023",
+      "id": 41
     }
   ]
 }
