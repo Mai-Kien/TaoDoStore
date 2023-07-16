@@ -14,15 +14,6 @@
   ],
   "product": [
     {
-      "productImg": "url(./assest/imgs/samsung.jpg)",
-      "productName": "samsung note 10",
-      "productOldPrice": "200$",
-      "productNewPrice": "150$",
-      "productDescription": "Sản phẩm mới nhất của hãng samsung",
-      "productType": "phone",
-      "id": 2
-    },
-    {
       "productImg": "url(./assest/imgs/tainghe.jpg)",
       "productName": "Tai Nghe",
       "productOldPrice": "2134",
@@ -430,6 +421,13 @@
       "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
       "notificationTime": "21:50 16/6/2023",
       "id": 41
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "22:3 16/6/2023",
+      "id": 42
     }
   ]
 }
