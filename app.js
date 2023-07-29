@@ -54,7 +54,7 @@ function getProduct(callback){
     })
     .then(callback)
 }
-// render giữ liệu của thằng phone
+// render  phone
 function renderPhoneProduct(products){
     const Phone = $('.product__type-phone');
     const typePhone = Phone.title
@@ -93,7 +93,7 @@ function renderPhoneProduct(products){
     Phone.innerHTML = htmlPhone.join('')
 }  
      
-// render giữ liệu của thằng earphone
+// render  earphone
 function renderEarPhoneProduct(products){
     const EarPhone = $('.product__type-earphone');
     const typeEarPhone = EarPhone.title
@@ -132,7 +132,7 @@ function renderEarPhoneProduct(products){
     EarPhone.innerHTML = htmlEarPhone.join('')
 }      
 
-// render giữ liệu của computer
+// render  computer
 function renderComputerProduct(products){
     const Computer = $('.product__type-computer');
     const typeComputer = Computer.title
@@ -179,14 +179,7 @@ function closeFunction(element){
     element.classList.add('close');
 }
 
-//     stopPropagation Modal;
-    // const overlayModals =$$('.overlay__modal')
 
-    // for (const overlayModal of overlayModals){
-    //     overlayModal.addEventListener('click', (e) =>{
-    //         e.stopPropagation();
-    // }
-    // )}
 
   
 function productSearch(products) {
