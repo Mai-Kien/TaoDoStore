@@ -122,12 +122,12 @@
       "id": 13
     },
     {
-      "productImg": "url(./assest/imgs/avt.jpg)",
+      "productImg": "url(./assest/imgs/messi.png)",
       "productName": "Mesi",
-      "productOldPrice": "77",
-      "productNewPrice": "74",
+      "productOldPrice": "12",
+      "productNewPrice": "23",
       "productDescription": "mesiii",
-      "productType": "phone",
+      "productType": "computer",
       "id": 14
     }
   ],
@@ -428,6 +428,20 @@
       "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
       "notificationTime": "22:3 16/6/2023",
       "id": 42
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "15:58 29/6/2023",
+      "id": 43
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Mesi",
+      "notificationImg": "url(./assest/imgs/messi.png)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "15:58 29/6/2023",
+      "id": 44
     }
   ]
 }
